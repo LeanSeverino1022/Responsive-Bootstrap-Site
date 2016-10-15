@@ -9,7 +9,7 @@ Learned...
 2. using **Jumbotron** to showcase key content
 3. adding **buttons** and **button groups**
 4. **Inline Navs** and **Dropdown/dropup** Buttons
-5  Bootstrap **Cards**
+5. Bootstrap **Cards**
 
 
 
