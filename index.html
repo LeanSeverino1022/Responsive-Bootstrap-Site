@@ -42,7 +42,7 @@
             <p class="lead">A One-day Conference About All Things JavaScript!</p>
 
             <div class="btn-group m-t-2" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
                 <a class="btn btn-secondary btn-lg" href="#speakers">See Speakers</a>
             </div>
         </div>
@@ -89,7 +89,7 @@
         <div class="row">
             <div class="col-md-6 col-lg-4">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="http://cjdellatore.com/wp-content/uploads/2012/09/5221596851_b9fcf0e472_o-800x400.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="img/jason.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -100,7 +100,7 @@
 
             <div class="col-md-6 col-lg-4">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="http://cjdellatore.com/wp-content/uploads/2012/09/5221596851_b9fcf0e472_o-800x400.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="img/jason.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -111,7 +111,7 @@
 
             <div class="col-md-6 col-lg-4">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="http://cjdellatore.com/wp-content/uploads/2012/09/5221596851_b9fcf0e472_o-800x400.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="img/jason.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -122,7 +122,7 @@
  
             <div class="col-md-6 col-lg-4">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="http://cjdellatore.com/wp-content/uploads/2012/09/5221596851_b9fcf0e472_o-800x400.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="img/jason.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -133,7 +133,7 @@
 
             <div class="col-md-6 col-lg-4">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="http://cjdellatore.com/wp-content/uploads/2012/09/5221596851_b9fcf0e472_o-800x400.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="img/jason.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -144,7 +144,7 @@
 
             <div class="col-md-6 col-lg-4">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="http://cjdellatore.com/wp-content/uploads/2012/09/5221596851_b9fcf0e472_o-800x400.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="img/jason.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -167,14 +167,14 @@
                 <h4 class="list-group-item-heading">NODE JS<span class="label label-info label-pill pull-xs-right">2:00pm</span></h4>
                 Steve Kerr
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item list-group-item-danger">
                 <h4 class="list-group-item-heading">ANGULAR <span class="label label-danger label-pill pull-xs-right">3:00pm</span></h4>
                 Joseph Gus
             </li>   
         </ul>   <!-- /schedule -->   
 
         <!-- callout button -->
-        <button type="button" class="btn btn-info-outline btn-lg center-block m-y-3">Don't Miss Out, Register Now</button>
+        <button type="button" class="btn btn-info-outline btn-lg center-block m-y-3" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
 
         <!-- signup form -->
         <hr>
@@ -235,6 +235,30 @@
 
     </div>
     <!-- /.container -->
+
+    <!--=================================
+        FORM MODAL
+        ====================================-->
+    <div id="register" class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                     </button>
+                    <h4 class="modal-title">Register for Full Stack Conf</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Form goes here...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div> <!-- /.modal-dialog -->
+    </div> <!-- /.modal -->
 
     <!-- jQuery first, then bootstrap js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
