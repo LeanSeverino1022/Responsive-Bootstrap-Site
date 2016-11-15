@@ -11,8 +11,10 @@ Learned...
 4. **Inline Navs** and **Dropdown/dropup** Buttons
 5. Bootstrap **Cards**
 6. **List Group**
+7. Display **Modal Window**
+8. **ScrollSpy** to Highlight Nav Link
 
-
+Done
 
 
 
